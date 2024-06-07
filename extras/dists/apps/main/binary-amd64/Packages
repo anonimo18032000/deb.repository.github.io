@@ -1,0 +1,215 @@
+Package: codium
+Version: 1.90.0.24158
+Architecture: amd64
+Maintainer: VSCodium Team https://github.com/VSCodium/vscodium/graphs/contributors
+Installed-Size: 361456
+Depends: ca-certificates, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.14), libc6 (>= 2.15), libc6 (>= 2.17), libc6 (>= 2.4), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.75), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.37.3), libgssapi-krb5-2 (>= 1.17), libgtk-3-0 (>= 3.9.10), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libkrb5-3 (>= 1.6.dfsg.2), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libnss3 (>= 3.26), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 5), libstdc++6 (>= 6), libx11-6, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxrandr2, xdg-utils (>= 1.0.2)
+Recommends: libvulkan1
+Conflicts: visual-studio-codium
+Replaces: visual-studio-codium
+Provides: visual-studio-codium
+Filename: pool/main/c/codium/codium_1.90.0.24158_amd64.deb
+Size: 3641344
+MD5sum: c408571f1366e0fd097418ab8f4cfe06
+SHA1: a78a84eefa0bf25e08d6d97fe90be8e724d4b675
+SHA256: 6f9c739f30076686f4b1ce3d07b6210b5c07320f399fd1675e2781fa6cd59b7a
+Section: devel
+Priority: optional
+Homepage: https://vscodium.com/
+Description: Code editing. Redefined.
+ VSCodium is a new choice of tool that combines the simplicity of
+ a code editor with what developers need for the core edit-build-debug cycle.
+ See https://vscodium.com/docs/setup/linux for installation
+ instructions and FAQ.
+
+Package: debreate
+Version: 0.7.13
+Architecture: all
+Maintainer: Jordan Irwin <antumdeluge@gmail.com>
+Installed-Size: 1501
+Depends: python2.7, python-wxgtk3.0 | python-wxgtk2.8, fakeroot, dpkg (>= 1.0.0), file, util-linux (>= 2.0.0), debianutils (>= 4.0.0)
+Recommends: lintian, coreutils (>= 8.0), xdg-utils, man-db, gzip (>= 1.0), binutils, gvfs-bin
+Suggests: gdebi | gdebi-kde
+Filename: pool/main/d/debreate/debreate_0.7.13_all.deb
+Size: 602616
+MD5sum: ec4ea39bed443d2f0ae20809eb057b55
+SHA1: d8d6e7bef43fdff25e06f26e61708db12841b147
+SHA256: da04aa92e99f0ec66f4704d6908d536a8afc8ef90657530ee555968ecca9cf1e
+Section: devel
+Priority: optional
+Homepage: https://antumdeluge.github.io/debreate-web/
+Description: Debian Package Builder
+ Debreate is a utility to aid in creating installable Debian packages (.deb).
+ .
+ The goal behind the project is to make developing for Debian based Linux
+ distributions more appealing, with an easy to use interface for packaging
+ applications, artwork, media, themes, etc.
+ .
+ Currently, it only supports "binary" packaging which allows packaging of
+ anything that does not require being compiled from source, such as scripted
+ applications or media. These packages can then be used for personal
+ distribution.
+ .
+ Plans for using backends such as dh_make & debuild for creating source packages
+ are in the works. But source packaging can be quite different & is a must if
+ you want to get your packages into a distribution's official repositories or a
+ Launchpad Personal Package Archive (PPA).
+
+Package: macos
+Version: 0.1
+Architecture: amd64
+Maintainer: Daniel Santos <danielmoreninho2013@gmail.com>
+Installed-Size: 36
+Depends: plank, gnome-tweaks, macos-icones, macos-papeis-de-parede, macos-plank, macos-temas, macos-grub-theme, macos-plymounth
+Filename: pool/main/m/macos/macos_0.1_amd64.deb
+Size: 3424
+MD5sum: d52da6ae60d5937f5f3e25107e6475b7
+SHA1: 73d17126307102fb49ad4d2712d4c033c17811ef
+SHA256: 32f66ab9015b6e7c7fa64ab1fabd394ea5d40591720ed08c2aa1fd74fefe885a
+Section: gnome
+Priority: optional
+Description: Tema MacOS para o Gnome
+ Coleção de diferentes temas do MacOS GTK&Shell, cursor, ícones, papeis de parede, grub customizado e tela de login customizado Para o Gnome
+  Tem Tambem o Menu do MacOS que voce pode arrastar para a barra do plank o arquivo se encontra em /usr/share/plank/menu/macos-menu.desktop
+  Este pacote inclui vários temas do  MacOS que usei do site gnome-look.org coletado e montado.
+
+Package: macos-grub-theme
+Version: 0.1
+Architecture: amd64
+Maintainer: Daniel Santos <danielmoreninho2013@gmail.com>
+Installed-Size: 1964
+Depends: macos
+Filename: pool/main/m/macos-grub-theme/macos-grub-theme_0.1_amd64.deb
+Size: 1600224
+MD5sum: 99a4421b57ee911bff58ff6c4799c77c
+SHA1: edfac8863ec38d8c9a4f13a79e7ac0494c48f138
+SHA256: 41663079ebfc016b0436d9beda6bf5dfe1ee99f5d13be91e9413197cf363162d
+Section: gnome
+Priority: optional
+Description: Tema MacOS para o Gnome
+ Grub com Tema do MacOS para o Gnome
+
+Package: macos-icones
+Version: 0.1
+Architecture: amd64
+Maintainer: Daniel Santos <danielmoreninho2013@gmail.com>
+Installed-Size: 1398640
+Depends: macos
+Filename: pool/main/m/macos-icones/macos-icones_0.1_amd64.deb
+Size: 70868072
+MD5sum: 34d94dcaabd1ce80d65fe380e2bf8ca7
+SHA1: 82c34e52855c4f0e89dada34170cd21f44c33f45
+SHA256: 016cf82eee2715f8efd3eb53e38eb1a8ac87576fbbce568dc0b6e2c9e7d1d5d8
+Section: gnome
+Priority: optional
+Description: Tema MacOS para o Gnome
+ Coleção de icones do MacOS para o Gnome
+
+Package: macos-papeis-de-parede
+Version: 0.1
+Architecture: amd64
+Maintainer: Daniel Santos <danielmoreninho2013@gmail.com>
+Installed-Size: 140712
+Depends: macos
+Filename: pool/main/m/macos-papeis-de-parede/macos-papeis-de-parede_0.1_amd64.deb
+Size: 136649768
+MD5sum: 5a7eb53c3279fa5d46e5dec4a0f059a3
+SHA1: 3b544cf8e66b0558e16b3f05a4784201eec88820
+SHA256: 3e8c7c66d0c4d482670bd81a14f5d5d877e0a9d115fa54d9b39d4dbd0404742a
+Section: gnome
+Priority: optional
+Description: Tema MacOS para o Gnome
+ Coleção de papeis de parede do MacOS para o Gnome
+
+Package: macos-plank
+Version: 0.1
+Architecture: amd64
+Maintainer: Daniel Santos <danielmoreninho2013@gmail.com>
+Installed-Size: 144
+Depends: macos
+Filename: pool/main/m/macos-plank/macos-plank_0.1_amd64.deb
+Size: 7100
+MD5sum: 03260c35c7c4c944a65fba57b6717546
+SHA1: 056c637680e336cdf2438a062d7fc70a2b2b602a
+SHA256: be0fc6a03c9d0402e87739cf4fcfde5d213af6315bf95cace769f4e440a613a9
+Section: gnome
+Priority: optional
+Description: Tema MacOS para o Gnome
+ Coleção de temas plank do MacOS para o Gnome
+
+Package: macos-plymounth
+Version: 0.1
+Architecture: amd64
+Maintainer: Daniel Santos <danielmoreninho2013@gmail.com>
+Installed-Size: 148
+Depends: macos
+Filename: pool/main/m/macos-plymounth/macos-plymounth_0.1_amd64.deb
+Size: 23464
+MD5sum: 915277cba9e8e84ff817691d28885f00
+SHA1: db6d0e11d93452de05b43ca29116140276b95d2e
+SHA256: b8c8164cdd5b9b8636c387cac0bc91896c50dc6216cc9c4fe0ba7048bb63e274
+Section: gnome
+Priority: optional
+Description: Tema do  MacOS na Inicializaçâo do Gnome
+ Este pacote inclui tema do MacOS que usei do site gnome-look.org coletado e montado.
+
+Package: macos-temas
+Version: 0.1
+Architecture: amd64
+Maintainer: Daniel Santos <danielmoreninho2013@gmail.com>
+Installed-Size: 10440
+Depends: macos
+Filename: pool/main/m/macos-temas/macos-temas_0.1_amd64.deb
+Size: 405812
+MD5sum: b2b81967a0857dec9c09b45114653f18
+SHA1: 157b48f3363b2cc44f2958ecde7223c214a60992
+SHA256: 2856f95437f6d6f82ae13e89e90fca73fcc959b0b8b77367b62786c271a30597
+Section: gnome
+Priority: optional
+Description: Tema MacOS para o Gnome
+ Coleção de diferentes temas do  MacOS GTK&Shell para o Gnome
+  Este pacote inclui vários temas do  MacOS que usei do site gnome-look.org coletado e montado.
+
+Package: quickhash
+Version: 3.3.1-1
+Architecture: amd64
+Maintainer: Ted Smith <tedsmith@quickhash-gui.org>
+Installed-Size: 12646
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.17), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.18.0), libx11-6, zlib1g (>= 1:1.1.4), libsqlite3-0
+Filename: pool/main/q/quickhash/quickhash_3.3.1-1_amd64.deb
+Size: 3849256
+MD5sum: eccf7b9ed7f8c00ce8c2638a715f91d8
+SHA1: 262fc575e1af9cd32825fa75f1c072ad2f2843f9
+SHA256: 5e2039666e4e4f2ba258677feb58c557ad5e6feb84f0b800f6ad374b32f4b1e6
+Section: misc
+Priority: optional
+Homepage: http://quickhash-gui.org/
+Description: Graphical data hashing tool
+ QuickHash is a graphical means for users to easily
+ hash data such as text, files, or even disks using Linux
+ without knowing command line syntax.
+ .
+ It can also be used for copying files from one folder to another
+ where hashes are computed prior to copying and afterwards.
+ .
+ Users can compare to files, or compare two folders, using hash
+ anaysis to be sure one matches the other
+
+Package: rpi-imager
+Version: 1.7.2
+Architecture: amd64
+Maintainer: Floris Bos <bos@je-eigen-domein.nl>
+Installed-Size: 1052
+Depends: libarchive13 (>= 3.0.4), libc6 (>= 2.14), libcurl3-gnutls (>= 7.16.2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.12.2), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.10.0), libqt5widgets5 (>= 5.0.2), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), qml-module-qtquick2, qml-module-qtquick-controls2, qml-module-qtquick-layouts, qml-module-qtquick-templates2, qml-module-qtquick-window2, qml-module-qtgraphicaleffects, dosfstools, fdisk
+Recommends: udisks2
+Filename: pool/main/i/rpi-imager/imager_1.7.2_amd64.deb
+Size: 365124
+MD5sum: c5d4bcba28728ba77d3ab6a0f73e8d52
+SHA1: f5b38b3204a51c861daa3ed7fb1e74c08c057023
+SHA256: 6722f2881ef81f8056b7c34295d84c125a06b4e23cac8ad3a6fcd666572a0d14
+Section: admin
+Priority: optional
+Homepage: https://www.raspberrypi.org/
+Description: Raspberry Pi imaging utility
+ Graphical user-interface to write disk images and format SD cards.
+
