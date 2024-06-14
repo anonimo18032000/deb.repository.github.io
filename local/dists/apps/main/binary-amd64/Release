@@ -1,0 +1,7 @@
+Archive: apps
+Version: 1.0
+Component: main
+Origin: apps
+Label: apps-all
+Architecture: amd64
+Description: Repositorio Apps Packages

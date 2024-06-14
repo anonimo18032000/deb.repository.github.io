@@ -1,0 +1,30 @@
+Origin: apps
+Label: apps-all
+Suite: apps
+Codename: apps
+Version: 1.0
+Date: Thu, 13 Jun 2024 18:30:17 UTC
+Architectures: i386 amd64
+Components: main
+Description: Repositorio Apps Packages
+MD5Sum:
+ 2e013a368e5b6155072f6d12be992ecc 8183 main/binary-i386/Packages
+ 39255c8921e526b4057a4e1c74191119 3599 main/binary-i386/Packages.gz
+ ebce9469cd0841e2934687ba72044076 130 main/binary-i386/Release
+ 4c1dee0a09a5a1cf1b30c955e0eda6d9 13958 main/binary-amd64/Packages
+ 72d64fd6f62d6158628f203d757606e6 5247 main/binary-amd64/Packages.gz
+ e2d75540ae885eacef909f0a31c9255a 131 main/binary-amd64/Release
+SHA1:
+ 9345c97d2e75e85828079bdd5f2b185b26c93d82 8183 main/binary-i386/Packages
+ 90d50a0177d9ffdda3a0e9de431ffaad34e322ac 3599 main/binary-i386/Packages.gz
+ 430f5668c0c6447718d7fd3dc4b353196e2f338f 130 main/binary-i386/Release
+ a9054bd5a45afb4ba2aa9d3bc1707d2fb468612c 13958 main/binary-amd64/Packages
+ 36348524a96f084fd79ec01b5967c0afbae38f07 5247 main/binary-amd64/Packages.gz
+ bce8233899f005e60769519d716ddbf91c73dc3f 131 main/binary-amd64/Release
+SHA256:
+ 444c70c6c886e3d9bb837cec4c20132ce7cc93bf380c5d4113f746b0be5c66bb 8183 main/binary-i386/Packages
+ 28227f8df695ffbc084fcbbdc4d32a38d68045a7d45f7e5b0c33dcddc95099ca 3599 main/binary-i386/Packages.gz
+ 3b01ddd35629da05efd7717da301c3e7eea18262bb12f2e2e177e7aa25b22793 130 main/binary-i386/Release
+ 4a98b5e10daac5cb31e986d17352374ef25f8abcd3d392b7c720fe180070e79a 13958 main/binary-amd64/Packages
+ 8cf7a522170afe286995ffae26fa22b68a6e78c2a4de90203208322197fdfa52 5247 main/binary-amd64/Packages.gz
+ 8f8ae4ec5f50096306271c14f86b1f13fb34092ff0c7356a4d88b845f31fbdfd 131 main/binary-amd64/Release

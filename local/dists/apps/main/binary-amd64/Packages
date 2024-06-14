@@ -1,0 +1,314 @@
+Package: circle-flags-svg
+Source: circle-flags
+Version: 2.3.0
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 360
+Priority: optional
+Section: universe/misc
+Filename: pool/main/c/circle-flags/circle-flags-svg_2.3.0_all.deb
+Size: 48020
+SHA256: 06f04df52b0424853ffcaceae97fac3924846821237adb05e7541e6ef9ef4183
+SHA1: 9353f09a12c1ab575614dd2d13b67a2de3c13183
+MD5sum: bb25bb461768149f2a85e5fcb5d518c7
+Description: Circle flags in SVG format
+ A collection of circular flags in SVG format.
+
+Package: cubic
+Version: 2024.02-86-release~202402210133~ubuntu22.04.1
+Architecture: all
+Maintainer: PJ Singh, <psingh.cubic@gmail.com>
+Installed-Size: 1740
+Depends: python3:any (>= 3.6~), binwalk (>= 2.1.1), coreutils (>= 8.28), genisoimage (>= 9:1.1.11), gir1.2-gtksource-4 (>= 4.2.0) | gir1.2-gtksource-3.0 (>= 3.24.7), gir1.2-vte-2.91 (>= 0.52.1), initramfs-tools (>= 0.130), isolinux (>= 3:6.03), libgtksourceview-4-0 (>= 4.2.0) | libgtksourceview-3.0-1 (>= 3.24.7), mount (>= 2.31.1), policykit-1 (>= 0.105), python3-argcomplete, python3-gi (>= 3.26.1), python3-icu (>= 1.9.8), python3-magic (>= 2:0.4.15), python3-packaging (>= 17.1), python3-pexpect (>= 4.2.1), python3-psutil (>= 5.4.2-1), python3-pydbus (>= 0.6.0), gir1.2-gtk-3.0 (>= 3.22.30), python3-pyinotify (>= 0.9.6), qemu-system-gui (>= 1:4.2) | qemu-system-x86 (<< 1:4.2), qemu-system-x86 (>= 1:4.2) | qemu-system-x86 (<< 1:4.2), rsync (>= 3.1.2), squashfs-tools (>= 1:4.3), systemd-container (>= 237), xorriso (>= 1.4.8)
+Homepage: https://github.com/PJ-Singh-001/Cubic
+Priority: optional
+Section: python
+Filename: pool/main/c/cubic/cubic_2024.02-86-release~202402210133~ubuntu22.04.1_all.deb
+Size: 201258
+SHA256: 58fc6ede71f1a1751321c65a374be20dd51e869d1effe0706c1bf5ec684649ec
+SHA1: ff5ddf347ca7b2d3cc9c9e3c7b1fc5c9bf42f955
+MD5sum: 7c1b3e2cfd2a42877a69e7504862dee4
+Description: Wizard to create a customized Ubuntu Live ISO image.
+  Cubic (Custom Ubuntu ISO Creator) is a GUI wizard to create a customized
+  Live ISO image for Ubuntu and Debian based distributions. Cubic permits
+  effortless navigation through the ISO customization steps and features an
+  integrated virtual command line environment to customize the Linux file
+  system. You can create new customization projects or modify existing projects.
+  Important parameters are dynamically populated with intelligent defaults to
+  simplify the customization process. See https://github.com/PJ-Singh-001/Cubic
+  for more information.
+
+Package: debreate
+Version: 0.7.13
+Architecture: all
+Maintainer: Jordan Irwin <antumdeluge@gmail.com>
+Installed-Size: 1501
+Depends: python2.7, python-wxgtk3.0 | python-wxgtk2.8, fakeroot, dpkg (>= 1.0.0), file, util-linux (>= 2.0.0), debianutils (>= 4.0.0)
+Recommends: lintian, coreutils (>= 8.0), xdg-utils, man-db, gzip (>= 1.0), binutils, gvfs-bin
+Suggests: gdebi | gdebi-kde
+Homepage: https://antumdeluge.github.io/debreate-web/
+Priority: optional
+Section: devel
+Filename: pool/main/d/debreate/debreate_0.7.13_all.deb
+Size: 602616
+SHA256: da04aa92e99f0ec66f4704d6908d536a8afc8ef90657530ee555968ecca9cf1e
+SHA1: d8d6e7bef43fdff25e06f26e61708db12841b147
+MD5sum: ec4ea39bed443d2f0ae20809eb057b55
+Description: Debian Package Builder
+ Debreate is a utility to aid in creating installable Debian packages (.deb).
+ .
+ The goal behind the project is to make developing for Debian based Linux
+ distributions more appealing, with an easy to use interface for packaging
+ applications, artwork, media, themes, etc.
+ .
+ Currently, it only supports "binary" packaging which allows packaging of
+ anything that does not require being compiled from source, such as scripted
+ applications or media. These packages can then be used for personal
+ distribution.
+ .
+ Plans for using backends such as dh_make & debuild for creating source packages
+ are in the works. But source packaging can be quite different & is a must if
+ you want to get your packages into a distribution's official repositories or a
+ Launchpad Personal Package Archive (PPA).
+
+Package: gir1.2-xapp-1.0
+Source: xapp
+Version: 2.8.2+virginia
+Architecture: amd64
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 58
+Depends: gir1.2-glib-2.0 (>= 0.10.2-1~), gir1.2-gtk-3.0 (>= 3.16), libxapp1 (>= 2.6.0), python3:any
+Homepage: https://projects.linuxmint.com/xapp/reference/
+Priority: optional
+Section: introspection
+Filename: pool/main/x/xapp/gir1.2-xapp-1.0_2.8.2+virginia_amd64.deb
+Size: 19928
+SHA256: 634a2773352f796729d4128e211b20eb41526ae57bb999660fc25c895e26e7b6
+SHA1: 04376c53e5fa694764854b52be6cae64ae12b1fc
+MD5sum: 5868f3b2168161cbcd90742f1319d83b
+Description: Introspection data for XApp
+ This package contains the introspection data for XApp.
+
+Package: grub-customizer
+Version: 5.2.5-0ubuntu1~ppa1j
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 8884
+Depends: libarchive13 (>= 3.0.4), libatkmm-1.6-1v5 (>= 2.28.2), libc6 (>= 2.34), libcairomm-1.0-1v5 (>= 1.12.0), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.14.0), libglibmm-2.4-1v5 (>= 2.66.2), libgtk-3-0 (>= 3.0.0), libgtkmm-3.0-1v5 (>= 3.24.5), libpangomm-1.4-1v5 (>= 2.46.2), libsigc++-2.0-0v5 (>= 2.2.0), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 11), policykit-1
+Recommends: hwinfo
+Homepage: https://launchpad.net/grub-customizer
+Priority: optional
+Section: admin
+Filename: pool/main/g/grub-customizer/grub-customizer_5.2.5-0ubuntu1~ppa1j_amd64.deb
+Size: 1486114
+SHA256: 334c68cca16434f879ab7eb7b0647d5dba6f55c82efeeef86cd611efd327a476
+SHA1: 0038c78a43082fa709b99a89423edbd14387d63e
+MD5sum: 612fe0f9c8c0d248f20f3ea554e32937
+Description: Grub Customizer - A graphical Grub2/BURG configuration application
+ Grub Customizer is a graphical configuration tool to modify the grub2/burg
+ settings with focus on the individual list order - without losing the
+ dynamical behavior of grub - also usable on live cds.
+ Settings like the background or timeouts are also changeable using
+ Grub Customizer.
+Original-Maintainer: Daniel Richter <danielrichter2007@web.de>
+
+Package: hypnotix
+Version: 4.3
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 945
+Depends: gir1.2-xapp-1.0 (>= 2.6.0), python3, python3-gi, python3-requests, python3-setproctitle, python3-unidecode, xapps-common, dconf-gsettings-backend | gsettings-backend, libmpv2 | libmpv1, python3-imdbpy, python3-gi-cairo, circle-flags-svg, yt-dlp
+Priority: optional
+Section: video
+Filename: pool/main/h/hypnotix/hypnotix_4.3_all.deb
+Size: 130260
+SHA256: 129f9fd5032252cebbd81a6ea8da4f61dc6bd4d9072dede430bfca8e67451361
+SHA1: 40adf44bfb0c77dbacbf2848db69cdfecaa02565
+MD5sum: fde7526b7859fad129824858e0c2c218
+Description: IPTV Player
+ Watch TV by streaming from M3U sources.
+
+Package: libxapp1
+Source: xapp
+Version: 2.8.2+virginia
+Architecture: amd64
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 459
+Depends: xapps-common (>= 2.8.2+virginia), libc6 (>= 2.34), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libdbusmenu-gtk3-4 (>= 0.4.2), libgdk-pixbuf-2.0-0 (>= 2.23.0), libglib2.0-0 (>= 2.67.3), libgnomekbd8 (>= 3.6.0), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.14.0), libx11-6
+Multi-Arch: same
+Homepage: https://projects.linuxmint.com/xapp/reference/
+Priority: optional
+Section: libs
+Filename: pool/main/x/xapp/libxapp1_2.8.2+virginia_amd64.deb
+Size: 116000
+SHA256: 7a329280e1c551e1edda99ee1a90db372a550a61f66b4853b3503b0dba2ef1fc
+SHA1: eb9fd6e32202ac05f48283297270441c5c827653
+MD5sum: 53ea4fcd7d650b1fcbea9efa53e471fe
+Description: XApp library
+ This library is used by several XApp apps.
+
+Package: macos
+Version: 0.2.1
+Installed-Size: 32
+Maintainer: Daniel Santos <danielmoreninho2013@gmail.com>
+Architecture: all
+Depends: gnome-tweaks, macos-icones, macos-papeis-de-parede, macos-temas, macos-grub-theme, macos-plymounth
+Priority: important
+Section: gnome
+Filename: pool/main/m/macos/macos_0.2.1_all.deb
+Size: 942
+SHA256: 412109c39ada17fb61350669af5eb0709314b652129ec5bb6699d1aa2daaed7b
+SHA1: fa24cd55b72a037df60ff475b1a0124bc00a6e92
+MD5sum: 58ebada4bf3fb1c4b583d6a28b35793d
+Description: Tema MacOS para o Gnome
+ Coleção de diferentes temas do MacOS GTK&Shell, cursor, ícones, papeis de parede, grub customizado e tela de login customizado Para o Gnome
+    Este pacote inclui vários temas do  MacOS que usei do site gnome-look.org coletado e montado.
+
+Package: macos-grub-theme
+Version: 0.1
+Installed-Size: 1964
+Maintainer: Daniel Santos <danielmoreninho2013@gmail.com>
+Architecture: amd64
+Depends: macos
+Priority: optional
+Section: gnome
+Filename: pool/main/m/macos-grub-theme/macos-grub-theme_0.1_amd64.deb
+Size: 1600224
+SHA256: 41663079ebfc016b0436d9beda6bf5dfe1ee99f5d13be91e9413197cf363162d
+SHA1: edfac8863ec38d8c9a4f13a79e7ac0494c48f138
+MD5sum: 99a4421b57ee911bff58ff6c4799c77c
+Description: Tema MacOS para o Gnome
+ Grub com Tema do MacOS para o Gnome
+
+Package: macos-icones
+Version: 0.2
+Installed-Size: 1724000
+Maintainer: Daniel Santos <danielmoreninho2013@gmail.com>
+Architecture: all
+Priority: optional
+Section: gnome
+Filename: pool/main/m/macos-icones/macos-icones_0.2_all.deb
+Size: 119947622
+SHA256: 51c9ce52520d0e76b1f041286a5f4103f84bcea028717da003657c932ce0a6aa
+SHA1: 5231fc18cd0b69367944a0b297405015a949a53f
+MD5sum: c431a0e01b0f19cf0d00ee7b9f6514da
+Description: Tema MacOS para o Gnome
+ Coleção de icones do MacOS para o Gnome
+
+Package: macos-papeis-de-parede
+Version: 0.1
+Installed-Size: 140712
+Maintainer: Daniel Santos <danielmoreninho2013@gmail.com>
+Architecture: amd64
+Depends: macos
+Priority: optional
+Section: gnome
+Filename: pool/main/m/macos-papeis-de-parede/macos-papeis-de-parede_0.1_amd64.deb
+Size: 136649768
+SHA256: 3e8c7c66d0c4d482670bd81a14f5d5d877e0a9d115fa54d9b39d4dbd0404742a
+SHA1: 3b544cf8e66b0558e16b3f05a4784201eec88820
+MD5sum: 5a7eb53c3279fa5d46e5dec4a0f059a3
+Description: Tema MacOS para o Gnome
+ Coleção de papeis de parede do MacOS para o Gnome
+
+Package: macos-plymounth
+Version: 0.2.1
+Installed-Size: 148
+Maintainer: Daniel Santos <danielmoreninho2013@gmail.com>
+Architecture: all
+Priority: important
+Section: gnome
+Filename: pool/main/m/macos-plymounth/macos-plymounth_0.2.1_all.deb
+Size: 21730
+SHA256: 085cd8bfbd5740c9997262fa486f9cd9beb3627a07f790cf3d6e0102810552e9
+SHA1: babdd931dcb5b5461f998b7914c7f2208142d308
+MD5sum: d7807fdbec2dcd48a736f85d6f98deb9
+Description: Tema do  MacOS na Inicializaçâo do Gnome
+ Este pacote inclui tema do MacOS que usei do site gnome-look.org coletado e montado.
+
+Package: macos-temas
+Version: 0.1
+Installed-Size: 10440
+Maintainer: Daniel Santos <danielmoreninho2013@gmail.com>
+Architecture: amd64
+Depends: macos
+Priority: optional
+Section: gnome
+Filename: pool/main/m/macos-temas/macos-temas_0.1_amd64.deb
+Size: 405812
+SHA256: 2856f95437f6d6f82ae13e89e90fca73fcc959b0b8b77367b62786c271a30597
+SHA1: 157b48f3363b2cc44f2958ecde7223c214a60992
+MD5sum: b2b81967a0857dec9c09b45114653f18
+Description: Tema MacOS para o Gnome
+ Coleção de diferentes temas do  MacOS GTK&Shell para o Gnome
+  Este pacote inclui vários temas do  MacOS que usei do site gnome-look.org coletado e montado.
+
+Package: python-wxgtk3.0
+Source: wxpython3.0
+Version: 3.0.2.0+dfsg-8build1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: wxWidgets Maintainers <team+wx@tracker.debian.org>
+Installed-Size: 29766
+Depends: python-wxversion, python2 (<< 2.8), python2 (>= 2.7~), python2:any (<< 2.8), python2:any (>= 2.7~), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), libwxbase3.0-0v5 (>= 3.0.4+dfsg), libwxgtk3.0-gtk3-0v5 (>= 3.0.4+dfsg-10~)
+Suggests: wx3.0-doc
+Provides: python2.7-wxgtk3.0
+Homepage: https://www.wxpython.org/
+Priority: optional
+Section: python
+Filename: pool/main/w/wxpython3.0/python-wxgtk3.0_3.0.2.0+dfsg-8build1_amd64.deb
+Size: 5276004
+SHA256: 94d30cc4a6a4139fbcc29e54728e1ce469bafc017e5b320996555c72bc6b8e0d
+SHA1: a97e88841a06edc1f10a525d5b76177da009a9bc
+MD5sum: 58391d9aec06818dca2d3a0c1018f468
+Description: Python interface to the wxWidgets Cross-platform C++ GUI toolkit
+ wxWidgets (formerly known as wxWindows) is a class library for C++ providing
+ GUI components and other facilities on several popular platforms (and some
+ unpopular ones as well).
+ .
+ This package provides a Python interface to the wxGTK library and the
+ wxPython runtime support libraries.
+
+Package: python-wxversion
+Source: wxpython3.0
+Version: 3.0.2.0+dfsg-8build1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: wxWidgets Maintainers <team+wx@tracker.debian.org>
+Installed-Size: 64
+Depends: python2:any (<< 2.8), python2:any (>= 2.7~)
+Homepage: https://www.wxpython.org/
+Priority: optional
+Section: python
+Filename: pool/main/w/wxpython3.0/python-wxversion_3.0.2.0+dfsg-8build1_all.deb
+Size: 12144
+SHA256: 1a84ee186f198a9c2ca3e5f185e4222e275aef2c7cd5edda07e76720b985a7b8
+SHA1: f250a1881561e1f42846cde8db377c7bc84dfff9
+MD5sum: 2bde268761e34a608c30bc766c39612e
+Description: API for selecting the wxPython version to use
+ wxWidgets (formerly known as wxWindows) is a class library for C++ providing
+ GUI components and other facilities on several popular platforms (and some
+ unpopular ones as well).
+ .
+ This package provides the wxPython version selector.
+
+Package: xapps-common
+Source: xapp
+Version: 2.8.2+virginia
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 544
+Depends: inxi, netcat, xdg-utils, dconf-gsettings-backend | gsettings-backend, python3:any
+Multi-Arch: foreign
+Homepage: https://projects.linuxmint.com/xapp/reference/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xapp/xapps-common_2.8.2+virginia_all.deb
+Size: 62772
+SHA256: 5423e5bf2309a687e651f9f0c90e8f107e58c6512614787147e19e7e96474f1a
+SHA1: f937f6e143f6dfe1bb73a64a6ae994e9c88299c8
+MD5sum: e3f774030fd43e4fd71775958c579430
+Description: Common files for XApp desktop apps
+ This package includes files that are shared between several XApp
+ apps (i18n files and configuration schemas).
+
